@@ -1,0 +1,220 @@
+2026-10-23 11:32:21 INFO  (LoggingInitialization) Using log config file: jar:file:/C:/Users/benen/Documents/Codex/2026-10-22/https-github-com-morluto-rea-https/work/ghidra-install/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-10-23 11:32:21 INFO  (LoggingInitialization) Using log file: A:\Oath of Tengri\VampireSurvivors-Research\05-research-evidence\artifacts\ghidra-gameassembly-readonly.log  
+2026-10-23 11:32:21 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-10-23 11:32:21 INFO  (Preferences) Loading user preferences: C:\Users\benen\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\preferences  
+2026-10-23 11:32:21 INFO  (ClassSearcher) Searching for classes...  
+2026-10-23 11:32:23 INFO  (ClassSearcher) Class search complete (1873 ms)  
+2026-10-23 11:32:23 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-10-23 11:32:23 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-10-23 11:32:23 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-10-23 11:32:23 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-10-23 11:32:25 INFO  (AnalyzeHeadless) Headless startup complete (6762 ms)  
+2026-10-23 11:32:25 INFO  (ClassSearcher) Class searcher loaded 60 extension points (20 false positives)  
+2026-10-23 11:32:25 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts  
+2026-10-23 11:32:25 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-10-23 11:32:25 INFO  (HeadlessAnalyzer) Creating temporary project: A:\Oath of Tengri\VampireSurvivors-Research\05-research-evidence\artifacts\gameassembly-readonly  
+2026-10-23 11:32:25 DEBUG (DefaultProjectManager) No tools found; Installing default tools  
+2026-10-23 11:32:25 DEBUG (DefaultProjectManager) 	no recent project directories found  
+2026-10-23 11:32:25 INFO  (DefaultProject) Creating project: A:\Oath of Tengri\VampireSurvivors-Research\05-research-evidence\artifacts\gameassembly-readonly  
+2026-10-23 11:32:26 INFO  (HeadlessAnalyzer) REPORT: Processing input files:   
+2026-10-23 11:32:26 INFO  (HeadlessAnalyzer)      project: A:\Oath of Tengri\VampireSurvivors-Research\05-research-evidence\artifacts\gameassembly-readonly  
+2026-10-23 11:32:26 INFO  (HeadlessAnalyzer) IMPORTING: file:///B:/Steam/steamapps/common/Vampire Survivors/GameAssembly.dll  
+2026-10-23 11:32:32 INFO  (ProgramLoader) Using Loader: Portable Executable (PE)  
+2026-10-23 11:32:32 INFO  (ProgramLoader) Using Language/Compiler: x86:LE:64:default:windows  
+2026-10-23 11:32:32 INFO  (ProgramLoader) Using Library Search Path: [., C:\WINDOWS\SysWOW64, C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\runtime\jdk-21.0.12.1+1\bin, C:\WINDOWS\Sun\Java\bin, C:\WINDOWS\system32, C:\WINDOWS, C:\Users\benen\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell, C:\Users\benen\.codex\tmp\arg0-windows\codex-arg0W3m1yw, C:\Users\benen\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin, C:\Users\benen\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin, C:\Users\benen\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin, C:\Users\benen\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override, C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot\bin, C:\Program Files (x86)\Razer\ChromaBroadcast\bin, C:\Program Files\Razer\ChromaBroadcast\bin, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps, C:\Program Files (x86)\Razer Chroma SDK\bin, C:\Program Files\Razer Chroma SDK\bin, C:\Users\benen\AppData\Local\Microsoft\WindowsApps, C:\Program Files\nodejs\, C:\Program Files\Git\cmd, C:\Program Files\dotnet\, B:\CMake\bin, C:\Program Files\Cloudflare\Cloudflare WARP\, C:\Users\benen\AppData\Local\Python\bin, B:\Antigravity\bin, C:\Users\benen\AppData\Roaming\npm, C:\Users\benen\.dotnet\tools, C:\Users\benen\AppData\Local\Microsoft\WinGet\Packages\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe, C:\Users\benen\AppData\Local\Programs\Ollama, C:\Users\benen\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback, C:\Users\benen\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin, C:\Users\benen\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd, C:\Users\benen\AppData\Local\OpenAI\Codex\bin\2d8a5d5756dbf318, C:\Users\benen\AppData\Local\OpenAI\Codex\bin\37f54d68e5533a51]  
+2026-10-23 11:32:36 INFO  (TLSDirectory) TLS callbacks at 18712cb40  
+2026-10-23 11:34:00 INFO  (TLSDirectory) TLS callbacks at 1800254c0  
+2026-10-23 11:34:01 DEBUG (WEVTResourceDataType) Error processing Provider Element.  
+2026-10-23 11:34:01 INFO  (TLSDirectory) TLS callbacks at 1801bd870  
+2026-10-23 11:34:07 INFO  (TLSDirectory) TLS callbacks at 1800e58a8  
+2026-10-23 11:34:07 DEBUG (WEVTResourceDataType) Error processing Provider Element.  
+2026-10-23 11:34:09 INFO  (TLSDirectory) TLS callbacks at 1800ae9d8  
+2026-10-23 11:34:09 WARN  (ExportDataDirectory) Invalid or missing function at 1800c27b8  
+2026-10-23 11:34:10 INFO  (TLSDirectory) TLS callbacks at 180636c98  
+2026-10-23 11:34:10 WARN  (ExportDataDirectory) Invalid or missing function at 18071d6ec  
+2026-10-23 11:34:16 WARN  (ExportDataDirectory) Invalid or missing function at 1800cf87c  
+2026-10-23 11:34:16 DEBUG (WEVTResourceDataType) Error processing Provider Element.  
+2026-10-23 11:34:18 WARN  (ExportDataDirectory) Invalid or missing function at 180061404  
+2026-10-23 11:34:18 DEBUG (WEVTResourceDataType) Error processing Provider Element.  
+2026-10-23 11:34:18 INFO  (ProgramLoader) Additional info:
+Loading file:///B:/Steam/steamapps/common/Vampire Survivors/GameAssembly.dll?MD5=881292bf68466572fb889a632f619376...
+------------------------------------------------
+
+Searching 35 paths for library ADVAPI32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/advapi32.dll
+Loading file:///C:/Windows/System32/advapi32.dll?MD5=3a34cafb3a9a8c7c0b4f230ace934529...
+Created exports file: C:\Users\benen\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\advapi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library API-MS-WIN-CORE-WINRT-ERROR-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 35 paths for library API-MS-WIN-CORE-WINRT-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 35 paths for library API-MS-WIN-CORE-WINRT-ROBUFFER-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 35 paths for library API-MS-WIN-CORE-WINRT-STRING-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 35 paths for library BASELIB.DLL...
+Loading file:///B:/Steam/steamapps/common/Vampire Survivors/baselib.dll?MD5=0202b01a514b009bfe5413655c9cd0aa...
+Created exports file: C:\Users\benen\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\baselib.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library BCRYPT.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/bcrypt.dll
+Loading file:///C:/Windows/System32/bcrypt.dll?MD5=30d869d1cc08b99e0227ba85504fc48d...
+[bcrypt.dll]: failed to create WEVTResource at 1800284d0: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\benen\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\bcrypt.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library DBGHELP.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/dbghelp.dll
+Loading file:///C:/Windows/System32/dbghelp.dll?MD5=3775787909402fa682526290550895ba...
+Created exports file: C:\Users\benen\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\dbghelp.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library IPHLPAPI.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/IPHLPAPI.DLL
+Loading file:///C:/Windows/System32/IPHLPAPI.DLL?MD5=ebbdd51a2a6665d7e787c4932a0ea84d...
+Created exports file: C:\Users\benen\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\iphlpapi.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library KERNEL32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/kernel32.dll
+Loading file:///C:/Windows/System32/kernel32.dll?MD5=f5c1a53820926a317adde8a0eccf31ca...
+Created exports file: C:\Users\benen\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\kernel32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library OLE32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/ole32.dll
+Loading file:///C:/Windows/System32/ole32.dll?MD5=d253151969e40bd5cae04588c660e769...
+[ole32.dll]: failed to create WEVTResource at 180184740: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\benen\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\ole32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library OLEAUT32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/oleaut32.dll
+Loading file:///C:/Windows/System32/oleaut32.dll?MD5=3a6f9f326c12b4cf7e152d8f4591eee9...
+Created exports file: C:\Users\benen\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\oleaut32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library SHELL32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/shell32.dll
+Loading file:///C:/Windows/System32/shell32.dll?MD5=6c28df714ca47eb01e32a7c4fbb8574f...
+Created exports file: C:\Users\benen\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\shell32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library USER32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/user32.dll
+Loading file:///C:/Windows/System32/user32.dll?MD5=57c789795a3089648fe8e67f19661977...
+[user32.dll]: failed to create WEVTResource at 1800efa70: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\benen\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\user32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library WS2_32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/ws2_32.dll
+Loading file:///C:/Windows/System32/ws2_32.dll?MD5=4427c7a0cd59d6d38aa1c5220b7e479e...
+[ws2_32.dll]: failed to create WEVTResource at 18006c4b8: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\benen\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\ws2_32.exports
+Library not saved to project.
+------------------------------------------------
+
+Applying cached symbols from KERNEL32.DLL
+Applying cached symbols from USER32.DLL
+Applying C:\Users\benen\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\advapi32.exports
+Applying cached symbols from OLE32.DLL
+Applying cached symbols from OLEAUT32.DLL
+Applying cached symbols from SHELL32.DLL
+Applying cached symbols from WS2_32.DLL
+Applying cached symbols from IPHLPAPI.DLL
+Applying cached symbols from BCRYPT.DLL
+Applying cached symbols from DBGHELP.DLL
+Applying C:\Users\benen\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\baselib.exports
+Linking the External Programs of 'GameAssembly.dll' to imported libraries...
+  [KERNEL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [ADVAPI32.DLL] -> not found in project
+  [OLE32.DLL] -> not found in project
+  [OLEAUT32.DLL] -> not found in project
+  [SHELL32.DLL] -> not found in project
+  [WS2_32.DLL] -> not found in project
+  [IPHLPAPI.DLL] -> not found in project
+  [API-MS-WIN-CORE-WINRT-ERROR-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CORE-WINRT-STRING-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CORE-WINRT-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CORE-WINRT-ROBUFFER-L1-1-0.DLL] -> not found in project
+  [BCRYPT.DLL] -> not found in project
+  [DBGHELP.DLL] -> not found in project
+  [BASELIB.DLL] -> not found in project
+------------------------------------------------
+
+  
+2026-10-23 11:34:18 INFO  (HeadlessAnalyzer) IMPORTING: Loaded 0 additional files  
+2026-10-23 11:34:19 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: file:///B:/Steam/steamapps/common/Vampire Survivors/GameAssembly.dll  
+2026-10-23 11:34:19 WARN  (NoReturnFunctionAnalyzer) Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn  
+2026-10-23 11:34:19 WARN  (NoReturnFunctionAnalyzer) Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn  
+2026-10-23 11:34:20 DEBUG (SymbolServerService) SymbolServerService: querying Program's Import Location - B:\Steam\steamapps\common\Vampire Survivors for GameAssembly.pdb, 21efcc9e-2460-4dac-960e-6604c1067b3d, 1, 0, ???  
+2026-10-23 11:34:20 DEBUG (SymbolServerService) SymbolServerService: got 0 results from Program's Import Location - B:\Steam\steamapps\common\Vampire Survivors  
+2026-10-23 11:34:20 DEBUG (SymbolServerService) SymbolServerService: found 0 matches  
+2026-10-23 11:34:20 INFO  (PdbUniversalAnalyzer) Skipping PDB processing: failed to locate PDB file in configured locations  
+2026-10-23 11:34:20 INFO  (PdbUniversalAnalyzer) Use a script to set the PDB file location. I.e.,
+    PdbAnalyzer.setPdbFileOption(currentProgram, new File("/path/to/pdb/file.pdb")); or
+    PdbUniversalAnalyzer.setPdbFileOption(currentProgram, new File("/path/to/pdb/file.pdb"));
+Or set the symbol server search configuration using:    PdbPlugin.saveSymbolServerServiceConfig(...);
+ This must be done using a pre-script (prior to analysis).  
+2026-10-23 11:34:21 INFO  (PackedDatabaseCache) Packed database cache: C:\Users\benen\AppData\Local\ghidra\packed-db-cache  
+2026-10-23 11:34:21 DEBUG (PackedDatabaseCache) Caching packed database: C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\typeinfo\win32\windows_vs12_64.gdt  
+2026-10-23 11:34:21 DEBUG (PackedDatabase) Unpacking database C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\typeinfo\win32\windows_vs12_64.gdt -> C:\Users\benen\AppData\Local\ghidra\packed-db-cache\pdb594E305C\db.1.gbf  
+2026-10-23 11:34:21 DEBUG (PackedDatabaseCache) Cache update completed: C:\Users\benen\Documents\Codex\2026-10-22\https-github-com-morluto-rea-https\work\ghidra-install\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\typeinfo\win32\windows_vs12_64.gdt  
+2026-10-23 11:44:46 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    Disassemble Entry Points                 622.346 secs
+    Non-Returning Functions - Known            0.758 secs
+    PDB Universal                              0.032 secs
+    Windows x86 PE Exception Handling          2.950 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.025 secs
+-----------------------------------------------------
+     Total Time   626 secs
+-----------------------------------------------------
+  
+2026-10-23 11:44:46 ERROR (HeadlessAnalyzer) REPORT: Analysis timed out at 600 seconds. Processing not completed for file: file:///B:/Steam/steamapps/common/Vampire Survivors/GameAssembly.dll  
+2026-10-23 11:44:46 INFO  (HeadlessAnalyzer) REPORT: Discarded file import due to readOnly option: /GameAssembly.dll  
+2026-10-23 11:44:46 INFO  (HeadlessAnalyzer) REPORT: Import succeeded  
