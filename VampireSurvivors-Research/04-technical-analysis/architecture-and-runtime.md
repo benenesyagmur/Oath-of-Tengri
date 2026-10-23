@@ -7,7 +7,7 @@ Yerel yapı Unity tabanlı, IL2CPP işaretli, Windows x64 hedefli bir dağıtım
 ## İşleyiş
 
 - **Doğrulanmış:** `GameAssembly.dll` x86-64 PE dosyasıdır ve SHA-256 değeri `bd5465840091c480aa97073092b4a2bb93608d0bf218125d535be0d7252d48ee` olarak ölçüldü.
-- **Doğrulanmış:** Ghidra headless, aynı ikiliyi Portable Executable yükleyicisi ve `x86:LE:64:default:windows` dil/derleyici seçimiyle içe aktardı (`EV-GHIDRA-001`).
+- **Doğrulanmış:** Ghidra headless, aynı ikiliyi Portable Executable yükleyicisi ve `x86:LE:64:default:windows` dil/derleyici seçimiyle içe aktardı (`EV-GHIDRA-001`). Genel auto-analysis 600 saniye sınırında tamamlanamadı; salt-okunur import atıldı.
 - **Doğrulanmış:** `global-metadata.dat` yereldedir; SHA-256 değeri `ebc951fb2ade1ee2822ab0565d07108667d1fd608f47512a05e94d7d9043cc2a` olarak ölçüldü.
 - **Kısmen doğrulanmış:** REA, iki işareti birlikte `unity-il2cpp` adayına dönüştürdü. Bu sınıflandırma runtime yüklemesini veya metadata–kod eşlemesini tek başına kanıtlamaz.
 - **Doğrulanmış:** `RuntimeInitializeOnLoads.json`, oyun/çerçeve başlatım kayıtları içerir; burada `VampireSurvivors.Framework.Loading.AddressableLoader.SetInternalIdTransform` ve `VampireSurvivors.App.Framework.System.UnityServicesManager.InitOnLoad` adları görülür. Bu, dosyadaki derlenmiş başlatım bildirimidir; bu yöntemlerin çalıştığı gözlemlenmedi.
