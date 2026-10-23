@@ -1,6 +1,6 @@
 # Araştırma Durumu
 
-**Mevcut aşama:** Aşama 1 tamamlandı, Aşama 2 başlatıldı.  
+**Mevcut aşama:** Aşama 2–5 statik veri incelemesi; Aşama 1 temel envanter tamamlandı, derin teknik analiz sürüyor. Hiçbir oynanış aşaması bütünüyle tamamlanmış sayılmıyor.  
 **Güncelleme:** 23 Ekim 2026 (Europe/Istanbul)
 
 ## Tamamlanan
@@ -15,9 +15,21 @@
 
 ## Devam eden
 
+### 23 Ekim devam oturumu kontrol noktası
+
+- **Tamamlanan:** REA metadata-only export:179 image/42.100 type/332.115 method. Binary dahil tam rapor limiti çözülmüş değil; dar kapsam alternatif başarılı.
+- **Tamamlanan:** 14 Unity dosyasından105 TextAsset envanteri,101 JSON/JSON5 tablo, kaynak/nesne/çıktı SHA-256 kaydı. Araştırmaya özel UnityPy1.25.4 ve JSON5 0.17.3 eklendi; oyun/REA kurulumu değiştirilmedi.
+- **Tamamlanan:** 526 silah/pasif kaydı (489 benzersiz anahtar),270 karakter (268 anahtar),1.186 düşman (1.185 anahtar),39 stageData kaydı için kapsam sayımı. Bunlar oynanabilir içerik sayıları değildir.
+- **Tamamlanan:** WHIP/MAGIC_MISSILE seviye kayıtları, iki evrim bağlantısı, altı pasifin sayısal alanları, üç başlangıç karakterinin stat/level kayıtları belgelendi.
+- **Tamamlanan:**10 temel metot için REA kaynak okuyucularıyla native RVA eşlemesi.
+- **Devam eden:** XP/loot ve düşman/stage tablolarının ayrı ajanlarca kaynak bağlı incelemesi; seçilmiş4 metot için Ghidra gövde çözümü.
+- **Önemli eksik:** canlı ekran kaydı, kontrollü atış/hasar/XP deneyi yok. Metadata isimleri veya tablo değerleri kesin runtime formülü olarak sunulmadı.
+- **Yeni belgeler:** [veri çıkarımı](04-technical-analysis/data-extraction.md), [silah](02-gameplay-systems/weapons/base-parameters.md), [evrim/pasif](02-gameplay-systems/weapons/evolutions-and-passives.md), [karakter](02-gameplay-systems/characters/base-characters.md), [native eşleme](04-technical-analysis/native-linkage.md).
+- **Devam noktası:** `artifacts/unity-data/inventory.json` ve `summary.json` kullanılarak aynı çıkarım tekrarlanmadan analiz sürdürülecek; Ghidra seçici işlem sonuçları kontrol edilecek.
+
 - Açık oyundan pasif UI/HUD gözlemi için güvenilir bir pencere kanalı aranıyor.
 - Addressables katalog/bundle envanterinin davranıştan bağımsız sınıflandırması sürüyor.
-- Ghidra 12.1.4 headless, `GameAssembly.dll` için 600 saniye dosya başına sınır ve `-readOnly` ile çalışıyor. Çıktı, yalnızca araştırma arşivindeki loglara yazılıyor (`EV-GHIDRA-001`, sonuç bekleniyor).
+- Ghidra auto-analysis tamamlanmadan 600 saniye sınırına ulaştı. Bir sonraki kod adımı, tüm ikili analizini tekrar etmek değil; IL2CPP metadata ve seçilmiş string/cross-reference odaklarıyla dar kapsamlı analizdir.
 
 ## Sonraki görevler
 
@@ -35,9 +47,10 @@
 
 ## Teknik engeller
 
-- REA metadata raporu: sabit 64 MiB sınırını aştı.
+- REA birleşik metadata+binary raporu sabit64MiB sınırını aştı; metadata-only export ve seçici native adres scripti başarılı alternatiflerdir.
 - REA Ghidra sağlayıcısı: `GHIDRA_INSTALL_DIR` yapılandırılmamış; `java.exe` mutlak yol olmadığı için doğrulanamadı.
-- Bilgisayar-kullanımı bağlayıcısı, kullanıcının açtığını bildirdiği oyunu uygulama envanterinde göstermedi. Bunun oyun çalışmadığı anlamına gelmediği açıkça kaydedildi.
+- Ghidra 12.1.4 genel auto-analysis: `GameAssembly.dll` için 600 saniye limiti aştı; PDB bulunamadı. İçe aktarma salt-okunur olduğu için hiçbir Ghidra program veritabanı tutulmadı.
+- Hem ilk bağlayıcı hem son Windows sky pencere kontrolü hedefi göstermedi; Get-Process ad filtresi de eşleşmedi. Oynanış gözlemi alınamadı (EV-OBS-002); kullanıcı koşusuna girdi gönderilmedi.
 
 ## Oluşturulan/güncellenen belgeler
 

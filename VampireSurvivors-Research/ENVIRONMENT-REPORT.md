@@ -15,7 +15,14 @@
 ## Araçlar
 
 - REA 6.7.0: masaüstü taraması ve dosya/metadata kimliği kullanılabilir.
-- Ghidra sağlayıcısı bu REA oturumunda `not_configured` durumunda; ancak yerel Ghidra 12.1.4 kurulumu doğrulandı ve salt-okunur headless analizi başlatıldı. Sonuç ayrı kanıt kaydına eklenecek.
+- Ghidra sağlayıcısı bu REA oturumunda `not_configured` durumunda; yerel Ghidra12.1.4 headless importu başarılı, genel auto-analysis600 saniyede zaman aşımına uğradı. ReadOnly nedeniyle DB saklanmadı. Loglar araştırmada; Ghidra kendi AppData cache'ine de yazdı, oyun girdisine yazmadı.
 - Bilgisayar-kullanımı aracı başlangıçta açık uygulama penceresi döndürmedi. Başlatma ya da girdi enjeksiyonu yapılmadı.
 
 Ayrıntılı kanıtlar: [kanıt dizini](05-research-evidence/evidence-index.md).
+
+## Devam oturumunda doğrulananlar
+
+- REA metadata-only export başarılı, sürüm31.10 seçili metot için bağımsız REA kaynak okuyucu scripti native adres üretti.
+- Unity serialized dosya başlığı sürümü6000.0.62f1.
+- Bundled Python `C:\Users\benen\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`; UnityPy1.25.4/JSON5 0.17.3 bağımlılıkları yalnızca araştırmanın `.tools/python` dizininde.
+- Windows `@oai/sky` pencere envanteri çalıştı; hedef oyun penceresi görünmedi. Bu nedenle başka uygulamaların ekranları alınmadı.
